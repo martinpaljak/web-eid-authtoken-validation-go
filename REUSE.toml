@@ -1,0 +1,21 @@
+version = 1
+
+[[annotations]]
+path = [
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    ".gitignore",
+    ".github/**",
+    "go.mod",
+    "go.sum",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Martin Paljak <martin@martinpaljak.net>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "testdata/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Estonian Information System Authority"
+SPDX-License-Identifier = "MIT"
